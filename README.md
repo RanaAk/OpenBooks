@@ -113,7 +113,9 @@ To get the app running on your device:
 
 ## 🖼 Screenshot
 
-<img src="screenshots/screenshot1.png" width="300">
+<p align="center">
+  <img src="OpenBooks/screenshots/screenshot1.png" width="300">
+</p>
 
 > Take a peek at the **Popular** books section for a glimpse of what OpenBooks has to offer!
 
