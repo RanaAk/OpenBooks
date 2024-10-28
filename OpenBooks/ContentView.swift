@@ -8,9 +8,10 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var viewModel = BookViewModel()
    
     var body: some View {
-        Text("Hello  World")
+        HomeView()
     }
 }
 

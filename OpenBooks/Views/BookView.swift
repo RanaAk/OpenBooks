@@ -49,7 +49,7 @@ struct BookView : View {
                     .padding(12)
                 }
             } else {
-                // Placeholder for when there is no thumbnail URL
+                
                 VStack {
                     Image(systemName: "book.fill")
                         .resizable()

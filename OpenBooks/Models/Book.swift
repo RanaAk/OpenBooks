@@ -24,7 +24,7 @@ struct Book: Codable, Identifiable {
     let searchInfo: SearchInfo?
 }
 
-struct VolumeInfo: Codable {
+struct VolumeInfo: Codable{
     let title: String
     let subtitle: String?
     let authors: [String]?
@@ -59,6 +59,9 @@ struct PanelizationSummary: Codable {
 struct ImageLinks: Codable {
     let smallThumbnail: String?
     let thumbnail: String?
+    let medium :  String?
+    let large :  String?
+    let extraLarge : String?
 }
 
 struct SaleInfo: Codable {
